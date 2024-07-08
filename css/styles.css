@@ -1,0 +1,95 @@
+section {
+    clear: both;}
+
+br {
+    clear: both;}
+
+footer {
+    clear: both;}
+
+body{
+    font-family: "Roboto", "Oswald", "Montserrat", "Arimo", sans-serif;
+    color: rgba(67, 68, 85, 1);
+}
+/* MENU BACKGROUND */
+.head-menu{background-color: rgba(231, 233, 252, 1);}
+
+/* LOGO SETUP + ACCENT */
+.web-logo{color: rgba(46, 47, 66, 1);
+font-family: "Raleway", sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 21px;
+text-decoration: none;
+}
+    .accent-web {color: rgba(77, 90, 229, 1);}
+
+/* HEADDER - NAV+ADDRESS */
+.head-nav > a{
+    color: rgba(46, 47, 66, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+    }
+
+    .head-nav > a:hover {color: rgba(77, 90, 229, 1);}
+    .head-nav > a:focus {color: rgba(77, 90, 229, 1);}
+
+.head-contact > a{
+    color: rgba(67, 68, 85, 1);
+    font-size: 16px;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+    .head-contact > a:hover {color: rgba(229, 77, 204, 1);}
+    .head-contact > a:focus {color: rgba(229, 77, 204, 1);}
+
+/* MAIN SECTION - button + title */
+.main-title-button {background-color: rgba(46, 47, 66, 1);
+    ;}
+
+    .main-title-button > h1 {
+        color: rgba(255, 255, 255, 1);
+        font-family: "Roboto", sans-serif;
+        font-size: 56px;
+        font-weight: 700;
+        line-height: 60px;
+        letter-spacing: 0.02em;
+        text-align: center;
+    }
+    .main-title-button > button {
+        background-color:  rgba(77, 90, 229, 1);
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+        width: 169px;
+        height: 56px;
+        top: 428px;
+        left: 636px;
+        padding: 16px 32px 16px 32px;
+        gap: 10px;
+        border-radius: 4px 0px 0px 0px;
+        opacity: 0px;
+
+    }
+    /* MAIN SECTION 2 - H3 */
+.feature-list > h3 {color: rgba(46, 47, 66, 1);}
+.portfolio-list > li > h3 {color: rgba(46, 47, 66, 1);}
+
+    /* MAIN SECTION 2 - H3 */
+
+.team-list > li {
+    list-style-type: none;
+    display: inline;
+	white-space: nowrap;
+    float: left;
+    margin: 1%;}
+
+.portfolio-list > li {
+    list-style-type: none;
+    display: inline;
+	white-space: wrap;
+    float: left;
+    margin: 1%;
+    line-height: 8px}
+
