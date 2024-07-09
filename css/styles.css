@@ -10,21 +10,23 @@ footer {
 body{
     font-family: "Roboto", "Oswald", "Montserrat", "Arimo", sans-serif;
     color: rgba(67, 68, 85, 1);
+    background-color: rgba(255, 255, 255, 1);
 }
-/* MENU BACKGROUND */
+        /* HEAD - MENU BACKGROUND */
 .head-menu{background-color: rgba(231, 233, 252, 1);}
 
-/* LOGO SETUP + ACCENT */
+        /* HEAD - LOGO SETUP + ACCENT */
 .web-logo{color: rgba(46, 47, 66, 1);
-font-family: "Raleway", sans-serif;
+font-family: "Raleway";
 font-size: 18px;
 font-weight: 700;
 line-height: 21px;
 text-decoration: none;
 }
-    .accent-web {color: rgba(77, 90, 229, 1);}
 
-/* HEADDER - NAV+ADDRESS */
+.accent-web {color: rgba(77, 90, 229, 1);}
+
+        /* HEAD - NAV+ADDRESS - LINKS */
 .head-nav > a{
     color: rgba(46, 47, 66, 1);
     font-size: 16px;
@@ -46,13 +48,12 @@ text-decoration: none;
     .head-contact > a:hover {color: rgba(229, 77, 204, 1);}
     .head-contact > a:focus {color: rgba(229, 77, 204, 1);}
 
-/* MAIN SECTION - button + title */
+        /* MAIN SECTION - button + title */
 .main-title-button {background-color: rgba(46, 47, 66, 1);
     ;}
 
     .main-title-button > h1 {
         color: rgba(255, 255, 255, 1);
-        font-family: "Roboto", sans-serif;
         font-size: 56px;
         font-weight: 700;
         line-height: 60px;
@@ -70,20 +71,37 @@ text-decoration: none;
         gap: 10px;
         border-radius: 4px 0px 0px 0px;
         opacity: 0px;
-
+        cursor: pointer;
+        font-size: 500;
     }
-    /* MAIN SECTION 2 - H3 */
-.feature-list > h3 {color: rgba(46, 47, 66, 1);}
-.portfolio-list > li > h3 {color: rgba(46, 47, 66, 1);}
+
+    .main-title-button > button:hover {color: rgba(46, 47, 66, 1);
+        background-color: orange;
+    }
+
+    .main-title-button > button:focus {color: rgba(46, 47, 66, 1);
+        background-color: orange;
+    }
 
     /* MAIN SECTION 2 - H3 */
+.feature-list > h3 {color: rgba(46, 47, 66, 1);
+font-size: 20px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.02em;
+text-align: left;
+}
 
 .team-list > li {
     list-style-type: none;
     display: inline;
 	white-space: nowrap;
     float: left;
-    margin: 1%;}
+    margin: 1%;
+}
+
+.portfolio-list > li > h3 {color: rgba(46, 47, 66, 1);
+}
 
 .portfolio-list > li {
     list-style-type: none;
@@ -91,5 +109,26 @@ text-decoration: none;
 	white-space: wrap;
     float: left;
     margin: 1%;
-    line-height: 8px}
+    line-height: 8px
+}
 
+   
+        /* Footer */
+
+.foot-main {background-color: rgba(46, 47, 66, 1);
+}
+.foot-main > a {color: rgba(244, 244, 253, 1);
+    font-family: "Raleway", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+    text-decoration: none;
+    letter-spacing: 0.03em;
+    text-align: left;
+}
+.foot-main > p {color: rgba(244, 244, 253, 1);
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    }
